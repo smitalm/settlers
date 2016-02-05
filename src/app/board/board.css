@@ -1,0 +1,28 @@
+.board-content {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    display: flex;
+    align-content: center center;
+}
+.board-content svg{
+    margin: auto;
+    display: flex;
+}
+.hexagon {
+    fill: saddlebrown !important;
+    stroke: black !important;
+    stroke-width: 2px;
+}
+
+.tile:hover .hexagon {
+    opacity: 0.5;
+}
+
+.tile text {
+    cursor: default;
+}
